@@ -606,7 +606,6 @@ namespace Delve
         private void DrawMineMapConnections(dynamic mineMap)
         {
             var gridElement = mineMap.GridElement;
-            LogError("aaaaaaaa");
             if (mineMap == null || !mineMap.IsVisible) return;
 
             var gridElementArea = gridElement.GetClientRect();
