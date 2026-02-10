@@ -1,9 +1,0 @@
-Owner: Zaafar
-Name: Delve
-Repository
-
-Ignore:
-Delve
-.gitignore
-LICENSE
-README.md
