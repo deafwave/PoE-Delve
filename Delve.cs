@@ -621,9 +621,11 @@ namespace Delve
                 {
                     if (gridElementArea.Contains(new SharpDX.Vector2(cell.GetClientRect().Center.X, cell.GetClientRect().Center.Y)))
                     {
+                        Graphics.DrawFrame(cell.GetClientRect(), Color.Yellow, 1); // Draws but is not useful
+                        // if(cell.Info.Interesting) // Is never True
                         // connection doesn't exist
                         // 'mines' data is not useful
-    
+                        // Art is always `Art/Textures/Interface/2D/2DArt/UIImages/InGame/15.dds` or `⠠﹛ҡ`
                         // foreach (var connection in cell.Children)
                         // {
                         //     var width = (int)connection.Width;
